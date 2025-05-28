@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry virtual environment (если создаётся внутри проекта)
+.poetry/
+
+# Virtual environment folder (если у тебя .venv)
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Media and static files
+media/
+staticfiles/
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# pytest
+.cache/
+.pytest_cache/
+
+# env files with secrets
+.env
+.env.*
+
+# Local settings
+local_settings.py
+
+# macOS files
+.DS_Store
