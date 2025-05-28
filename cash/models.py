@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 
 class StatusCashFlow(models.Model):
@@ -46,7 +47,7 @@ class SubcategoryCashFlow(models.Model):
 class CashFlow(models.Model):
     """Модель ДДС"""
 
-    date = models.DateTimeField(auto_now_add=True)
+    date = models.DateTimeField(default=timezone.now)
     status = models.ForeignKey(
         StatusCashFlow, on_delete=models.PROTECT, related_name="cash_flows"
     )
