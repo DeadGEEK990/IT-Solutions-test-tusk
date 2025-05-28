@@ -4,7 +4,8 @@ ___
 1. Запустите вашу среду разработки создайте новый проект
 и виртуальное окружение.
 2. Скопируйте проект из репозитория git командой:
-> git clone https://github.com/DeadGEEK990/IT-Solutions-test-tusk
+> git clone https://github.com/DeadGEEK990/IT-Solutions-test-tusk \
+> cd IT-Solutions-test-tusk
 3. Установите poetry:
 > pip install poetry==1.8.4
 4. Установите зависимости:
